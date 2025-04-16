@@ -33,4 +33,4 @@ First, AppEventsDispatcher is a Singleton, so you can use it easily everywhere.
 ## Additional information
 
 Inspired from [this article](https://apparencekit.dev/blog/flutter-app-events).
-Feel free to [give any feedback](https://github.com/vaistudio/flutter_fit_events/issues) ! This package is also open to contributions.
+Feel free to [give any feedback](https://github.com/Vaistudio-dev/flutter_fit_events/issues) ! This package is also open to contributions.
