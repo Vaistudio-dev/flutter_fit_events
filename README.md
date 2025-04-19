@@ -12,7 +12,7 @@ pattern.
 - Go inside your pubspec.yaml file
 - Add this line under the dependencies:
 ```
-flutter_fit_events: ^1.0.1
+flutter_fit_events: ^1.0.2
 ```
 - Get dependencies
 ```
