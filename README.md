@@ -12,7 +12,7 @@ pattern.
 - Go inside your pubspec.yaml file
 - Add this line under the dependencies:
 ```
-flutter_fit_events: ^1.0.2
+flutter_fit_events: ^1.0.3
 ```
 - Get dependencies
 ```
@@ -29,6 +29,9 @@ First, AppEventsDispatcher is a Singleton, so you can use it easily everywhere.
 ```AppEventsDispatcher().stream.listen((AppEvent event) {})```
 3. Listen to a specific type of event with
 ```AppEventsDispatcher().listenTo<AppEventType>((AppEvent event) {})```
+
+You can create your own events by extending the ```AppEvent``` class.
+For signaling errors, you can directly use the ```ErrorEvent``` class or extend it to create your own error event.
 
 ## Additional information
 
